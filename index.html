@@ -20,37 +20,50 @@
 </head>
 <body>  
     <header class="header">
-    <div class="container header-nav">
-        <nav class="nav-list">
-            <a class="header-logo-web link" lang="en" 
-            href="WebStudio">Web<span class="header-logo-studio">Studio</span>
+        <!-- <div class="header__container container">            
+            <nav class="nav">
+                <a href="#" lang='en' class="logo link">Web<span class="logo_accent">Studio</span></a>
+                <ul class="nav__list list">
+                    <li class="nav__link link nav__link_activ">
+                        <a href="./index.html" class="link"></a> Студия</li>
+                    <li class="nav__link link">
+                        <a href="./portfolio.html" class="link"></a> Портфолио</li>
+                    <li class="nav__link link">
+                        <a href="#" class="link"></a> Контакты</li>
+                </ul>
+            </nav>
+        </div> -->
+    <div class="container header__container">
+        <nav class="header__nav">
+            <a class="logo link" lang="en" 
+            href="#">Web<span class="header__logo">Studio</span>
             </a>                
-            <ul class="list header-list nav-link">
-                <li class="item">
-                    <a class="link header-link link-accent current" href="Студия">Студия
+            <ul class="list header__list">
+                <li class="header__item">
+                    <a class="link header__link accent" href="#">Студия
                     </a>
                 </li>
-                <li class="item">
-                    <a class="link header-link" href="./portfolio.html">Портфолио
+                <li class="header__item">
+                    <a class="link header__link" href="./portfolio.html">Портфолио
                     </a>
                 </li>
-                <li class="item">
-                    <a class="link header-link" href="Контакты">Контакты
+                <li class="header__item">
+                    <a class="link header__link" href="#">Контакты
                     </a>
                 </li>
             </ul>
         </nav>
-            <ul class="header-contacts">
-                <li class="item">                                         
-                    <a class="header-link header-contacts-text link" 
-                    href="mailto:info@devstudio.com"><svg class="header-icon" width="16" height="12">
+            <ul class="header__contacts">
+                <li class="header__contacts_item">                                         
+                    <a class="header__link header__text link" 
+                    href="mailto:info@devstudio.com"><svg class="header__icon" width="16" height="12">
                         <use href="./images/icons.svg#icon-letter"></use>
                     </svg>info@devstudio.com                         
                     </a>                     
                 </li>     
-                <li class="item">                                                              
-                    <a class="header-link header-contacts-text link" 
-                    href="tel:+380961111111"><svg class="header-icon" width="10" height="16">
+                <li class="header__contacts_item">                                                              
+                    <a class="header__link header__text link" 
+                    href="tel:+380961111111"><svg class="header__icon" width="10" height="16">
                         <use href="./images/icons.svg#icon-smartphone"></use>
                     </svg>+38 096 111 11 11                        
                     </a>                    
